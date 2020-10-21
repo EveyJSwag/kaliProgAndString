@@ -4,8 +4,7 @@
 void refStringArr(char *** strArr)
 {
     const char* str1 = "I LOVE TONY";
-    const char* str2 = "Tony good kitty";
-    const char* str3 = "He have nipple";
+
 
     strArr = (char ***)malloc(100);
     *strArr = (char **)malloc(1000);
